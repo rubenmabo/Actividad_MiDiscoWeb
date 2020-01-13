@@ -1,9 +1,32 @@
-
-#cabecera {
-	background-color: rgb (51, 165, 255);
+@font-face{
+	font-family: DJB;
+	src:url(fuentes/DJB.ttf);
+}
+@font-face{
+	font-family: cool;
+	src:url(fuentes/cool.ttf);
 }
 
-#cabecera h1{
-	letter-spacing:1px;
-
+td{
+	font-family:cool;
 }
+
+td input{
+	border-radius: 5px;
+}
+
+#cab {
+	background: linear-gradient(#e66465, #9198e5);
+}
+
+#cab h1{
+	letter-spacing:3px;
+	font-family:DJB;
+	color: white;
+}
+
+#botoncito{
+	text-align: center;
+}
+
+
